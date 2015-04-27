@@ -78,13 +78,6 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 
   // MY OPTIONS
-  this.noKeys = true
-  this.noZoom = true
-  this.noPan = true
-  this.noRotateUp = false
-  this.minAzimuthAngle = -Math.PI/5
-	this.maxAzimuthAngle = Math.PI/1.5
-
 	////////////
 	// internals
 
