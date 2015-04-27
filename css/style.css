@@ -837,93 +837,93 @@ section.section--about {
 
 .fix-page section.section--about {
   top: 100%;
-}.button.colour--61cbbd {
-  border-color: #61cbbd;
+}.button.colour--4ff0d8 {
+  border-color: #4ff0d8;
 }
 
-.button.colour--61cbbd:hover,
-.button.colour--61cbbd.is-active {
-  background-color: #61cbbd;
-}
-
-
-.button.colour--8cbec9 {
-  border-color: #8cbec9;
-}
-
-.button.colour--8cbec9:hover,
-.button.colour--8cbec9.is-active {
-  background-color: #8cbec9;
+.button.colour--4ff0d8:hover,
+.button.colour--4ff0d8.is-active {
+  background-color: #4ff0d8;
 }
 
 
-.button.colour--97d2bc {
-  border-color: #97d2bc;
+.button.colour--000000 {
+  border-color: #000000;
 }
 
-.button.colour--97d2bc:hover,
-.button.colour--97d2bc.is-active {
-  background-color: #97d2bc;
-}
-
-
-.button.colour--5fc093 {
-  border-color: #5fc093;
-}
-
-.button.colour--5fc093:hover,
-.button.colour--5fc093.is-active {
-  background-color: #5fc093;
+.button.colour--000000:hover,
+.button.colour--000000.is-active {
+  background-color: #000000;
 }
 
 
-.button.colour--d9d371 {
-  border-color: #d9d371;
+.button.colour--119AE1 {
+  border-color: #119AE1;
 }
 
-.button.colour--d9d371:hover,
-.button.colour--d9d371.is-active {
-  background-color: #d9d371;
-}
-
-
-.button.colour--ffff00 {
-  border-color: #ffff00;
-}
-
-.button.colour--ffff00:hover,
-.button.colour--ffff00.is-active {
-  background-color: #ffff00;
+.button.colour--119AE1:hover,
+.button.colour--119AE1.is-active {
+  background-color: #119AE1;
 }
 
 
-.button.colour--cf7867 {
-  border-color: #cf7867;
+.button.colour--faaba5 {
+  border-color: #faaba5;
 }
 
-.button.colour--cf7867:hover,
-.button.colour--cf7867.is-active {
-  background-color: #cf7867;
-}
-
-
-.button.colour--3a499e {
-  border-color: #3a499e;
-}
-
-.button.colour--3a499e:hover,
-.button.colour--3a499e.is-active {
-  background-color: #3a499e;
+.button.colour--faaba5:hover,
+.button.colour--faaba5.is-active {
+  background-color: #faaba5;
 }
 
 
-.button.colour--e3642d {
-  border-color: #e3642d;
+.button.colour--af96fa {
+  border-color: #af96fa;
 }
 
-.button.colour--e3642d:hover,
-.button.colour--e3642d.is-active {
-  background-color: #e3642d;
+.button.colour--af96fa:hover,
+.button.colour--af96fa.is-active {
+  background-color: #af96fa;
+}
+
+
+.button.colour--ab273d {
+  border-color: #ab273d;
+}
+
+.button.colour--ab273d:hover,
+.button.colour--ab273d.is-active {
+  background-color: #ab273d;
+}
+
+
+.button.colour--f1531b {
+  border-color: #f1531b;
+}
+
+.button.colour--f1531b:hover,
+.button.colour--f1531b.is-active {
+  background-color: #f1531b;
+}
+
+
+.button.colour--1c2050 {
+  border-color: #1c2050;
+}
+
+.button.colour--1c2050:hover,
+.button.colour--1c2050.is-active {
+  background-color: #1c2050;
+}
+
+
+.button.colour--f3ff6f {
+  border-color: #f3ff6f;
+}
+
+.button.colour--f3ff6f:hover,
+.button.colour--f3ff6f.is-active {
+  background-color: #f3ff6f;
 }
 
 
@@ -959,40 +959,40 @@ section.section--about {
   opacity: 0.3;
 }
 
-.gradient.colour--61cbbd {
-  background: linear-gradient(45deg, #61cbbd 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--4ff0d8 {
+  background: linear-gradient(45deg, #4ff0d8 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--8cbec9 {
-  background: linear-gradient(45deg, #8cbec9 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--000000 {
+  background: linear-gradient(45deg, #000000 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--97d2bc {
-  background: linear-gradient(45deg, #97d2bc 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--119AE1 {
+  background: linear-gradient(45deg, #119AE1 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--5fc093 {
-  background: linear-gradient(45deg, #5fc093 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--faaba5 {
+  background: linear-gradient(45deg, #faaba5 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--d9d371 {
-  background: linear-gradient(45deg, #d9d371 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--af96fa {
+  background: linear-gradient(45deg, #af96fa 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--ffff00 {
-  background: linear-gradient(45deg, #ffff00 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--ab273d {
+  background: linear-gradient(45deg, #ab273d 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--cf7867 {
-  background: linear-gradient(45deg, #cf7867 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--f1531b {
+  background: linear-gradient(45deg, #f1531b 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--3a499e {
-  background: linear-gradient(45deg, #3a499e 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--1c2050 {
+  background: linear-gradient(45deg, #1c2050 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--e3642d {
-  background: linear-gradient(45deg, #e3642d 0%, rgba(255,255,255,0) 80%);
+.gradient.colour--f3ff6f {
+  background: linear-gradient(45deg, #f3ff6f 0%, rgba(255,255,255,0) 80%);
 }
 
 .gradient.colour--ffffff {
