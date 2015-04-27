@@ -725,11 +725,13 @@ section .section-sidebar.sidebar--right {
 
 section.section--about {
   height: auto;
+  pointer-events: none;
   top: 200%;
 }
 
 .section-copy {
   margin: 60px auto 0;
+  pointer-events: auto;
   width: 47.5%
 }
 
