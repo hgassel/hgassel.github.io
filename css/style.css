@@ -574,12 +574,12 @@ textarea {
     clear: both;
 }
 @font-face {
-    font-family: 'LetteraProBold';
-    src: url('fonts/lineto-lettera-pro-bold.eot');
-    src: url('fonts/lineto-lettera-pro-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/lineto-lettera-pro-bold.woff') format('woff'),
-         url('fonts/lineto-lettera-pro-bold.ttf') format('truetype'),
-         url('fonts/lineto-lettera-pro-bold.svg#LetteraProBold') format('svg');
+    font-family: 'LetteraProRegular';
+    src: url('fonts/lineto-lettera-pro-regular.eot');
+    src: url('fonts/lineto-lettera-pro-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lineto-lettera-pro-regular.woff') format('woff'),
+         url('fonts/lineto-lettera-pro-regular.ttf') format('truetype'),
+         url('fonts/lineto-lettera-pro-regular.svg#LetteraProRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }html {
@@ -587,8 +587,9 @@ textarea {
 }
 
 body {
+  background: #f8f7f6;
   line-height: 1.5em;
-  font-family: "LetteraProBold";
+  font-family: "LetteraProRegular";
   font-size: 15px;
   min-height: 100%;
   overflow-x: hidden;
@@ -653,10 +654,23 @@ section {
 }
 
 section.section--intro {
+  background-image: url('/img/room_version_final.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
+}
+
+.intro-painting {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  left: 17%;
+  height: 66%;
+  position: absolute;
+  top: -12%;
+  width: 66%;
 }
 
 section.section--paintings {
@@ -805,7 +819,7 @@ section.section--about {
   cursor: pointer;
   margin: 0 0 1em;
   padding: 0.5em;
-  width: 110%;
+  width: 200px;
   -webkit-transition: background-color 300ms linear, color 300ms linear;
   transition: background-color 300ms linear, color 300ms linear;
 }
@@ -830,6 +844,7 @@ section.section--about {
 }
 
 .fix-page section.section--intro {
+  background-image: url('/img/room_version3_empty.jpg');
   position: fixed;
   top: -100%;
   z-index: 9;
@@ -973,7 +988,7 @@ section.section--about {
   background: linear-gradient(45deg, #4ff0d8 0%, rgba(255,255,255,0) 80%);
 }
 
-.gradient.colour--000000 {
+.gradient.colour--444444 {
   background: linear-gradient(45deg, #000000 0%, rgba(255,255,255,0) 80%);
 }
 
@@ -1007,4 +1022,64 @@ section.section--about {
 
 .gradient.colour--ffffff {
   background: linear-gradient(45deg, #ffffff 0%, rgba(255,255,255,0) 80%);
+}@media (max-width: 1160px) {
+  body {
+    font-size: 13px;
+  }
+
+  .section-sidebar li.information-box {
+    width: 175px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 13px;
+  }
+
+  .section-sidebar ul.buttons {
+    width: 175px;
+  }
+
+  .buttons .button {
+    height: 25px;
+    width: 25px;
+  }
+
+  .sidebar-information {
+    margin-left: -1.5em;
+  }
+
+  .buttons.buttons--finishes .button {
+    position: relative;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+  }
+
+  .buttons.buttons--finishes .button:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .buttons.buttons--finishes .button:after {
+    content: "1";
+    left: 7px;
+    position: absolute;
+    top: 3px;
+  }
+
+  .buttons.buttons--finishes .button.button--2:after {
+    content: "2";
+  }
+
+  .buttons.buttons--finishes .button.button--3:after {
+    content: "3";
+  }
+
+  .buttons.buttons--finishes .button.button--4:after {
+    content: "4";
+  }
+
+  .section-sidebar li.information-box {
+    width: 175px;
+  }
 }
