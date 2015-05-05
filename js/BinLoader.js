@@ -19,20 +19,20 @@ THREE.BinaryLoader.prototype.constructor = THREE.BinaryLoader;
 //		- texturePath (optional: if not specified, textures will be assumed to be in the same folder as JS model file)
 //		- binaryPath (optional: if not specified, binary file will be assumed to be in the same folder as JS model file)
 
-THREE.BinaryLoader.prototype.load = function ( url, callback, texturePath, binaryPath ) {
+THREE.BinaryLoader.prototype.load = function ( url, callback, texturePath, binaryPath, onProgress) {
 
 	// todo: unify load API to for easier SceneLoader use
 
 	texturePath = texturePath || this.extractUrlBase( url );
 	binaryPath = binaryPath || this.extractUrlBase( url );
 
-	var callbackProgress = this.showProgress ? THREE.Loader.prototype.updateProgress : undefined;
+	//var callbackProgress = this.showProgress ? THREE.Loader.prototype.updateProgress : undefined;
 
 	this.onLoadStart();
 
 	// #1 load JS part via web worker
 
-	this.loadAjaxJSON( this, url, callback, texturePath, binaryPath, callbackProgress );
+	this.loadAjaxJSON( this, url, callback, texturePath, binaryPath, onProgress);
 
 };
 
