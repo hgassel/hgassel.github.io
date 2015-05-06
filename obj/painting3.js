@@ -3,25 +3,19 @@
     "metadata" :
     {
         "formatVersion" : 3.1,
-        "sourceFile"    : "painting_4a.obj",
+        "sourceFile"    : "PAINTING_3c.obj",
         "generatedBy"   : "OBJConverter",
-        "vertices"      : 213784,
-        "faces"         : 425716,
+        "vertices"      : 36135,
+        "faces"         : 68035,
         "normals"       : 0,
-        "uvs"           : 215220,
-        "materials"     : 2
+        "uvs"           : 203769,
+        "materials"     : 1
     },
 
     "materials": [	{
 	"DbgColor" : 15658734,
 	"DbgIndex" : 0,
 	"DbgName" : "Wood_Fraxinus"
-	},
-
-	{
-	"DbgColor" : 15597568,
-	"DbgIndex" : 1,
-	"DbgName" : "defaultMat"
 	}],
 
     "buffers": "painting3.bin"

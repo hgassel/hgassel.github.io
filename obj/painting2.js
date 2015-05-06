@@ -3,25 +3,25 @@
     "metadata" :
     {
         "formatVersion" : 3.1,
-        "sourceFile"    : "painting-2.obj",
+        "sourceFile"    : "painting_2a.obj",
         "generatedBy"   : "OBJConverter",
-        "vertices"      : 196608,
-        "faces"         : 388954,
+        "vertices"      : 21243,
+        "faces"         : 38798,
         "normals"       : 0,
-        "uvs"           : 196618,
+        "uvs"           : 115398,
         "materials"     : 2
     },
 
     "materials": [	{
 	"DbgColor" : 15658734,
 	"DbgIndex" : 0,
-	"DbgName" : "Wood_Fraxinus"
+	"DbgName" : "defaultMat"
 	},
 
 	{
 	"DbgColor" : 15597568,
 	"DbgIndex" : 1,
-	"DbgName" : "defaultMat"
+	"DbgName" : "Wood_Fraxinus"
 	}],
 
     "buffers": "painting2.bin"

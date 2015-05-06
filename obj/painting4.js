@@ -3,12 +3,12 @@
     "metadata" :
     {
         "formatVersion" : 3.1,
-        "sourceFile"    : "painting5_ready.obj",
+        "sourceFile"    : "4b.obj",
         "generatedBy"   : "OBJConverter",
-        "vertices"      : 151206,
-        "faces"         : 300662,
+        "vertices"      : 30894,
+        "faces"         : 59804,
         "normals"       : 0,
-        "uvs"           : 152124,
+        "uvs"           : 170863,
         "materials"     : 2
     },
 
