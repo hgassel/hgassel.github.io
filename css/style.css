@@ -1000,31 +1000,31 @@ section.section--paintings--phone p {
 }
 
 section.section--intro.js-not-scrolled {
-  animation: pulse 3s ease-in-out infinite;
+  animation: pulse 2.8s ease-in-out infinite;
   -webkit-animation: pulse 3s ease-in-out infinite;
 }
 
 @-webkit-keyframes pulse {
   0% {
-    opacity: 0.8
+    opacity: 0.5
   }
   50% {
     opacity: 1.0
   }
   100% {
-    opacity: 0.8
+    opacity: 0.5
   }
 }
 
 @keyframes pulse {
   0% {
-    opacity: 0.8
+    opacity: 0.5
   }
   50% {
     opacity: 1.0
   }
   100% {
-    opacity: 0.8
+    opacity: 0.5
   }
  }.button.colour--4ff0d8 {
   border-color: #4ff0d8;
