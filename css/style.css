@@ -592,9 +592,10 @@ body {
   font-family: "LetteraProRegular";
   font-size: 15px;
   min-height: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   overflow-y: scroll;
   position: relative;
+  width: 100%;
 }
 
 .fixed {
@@ -678,7 +679,7 @@ section.section--paintings {
   top: 100%;
 }
 
-section .section-sidebar {
+.section-sidebar {
   left: 4.86%;
   top: 60px;
   margin: 0;
@@ -687,7 +688,7 @@ section .section-sidebar {
   width: 15.7%;
 }
 
-section .section-sidebar.sidebar--right {
+.section-sidebar.sidebar--right {
   left: auto;
   right: 3%;
   width: 19%;
@@ -697,7 +698,6 @@ section .section-sidebar.sidebar--right {
 .section-sidebar li {
   list-style-type: none;
   margin: 0;
-  overflow: visible;
   padding: 0;
 }
 
@@ -1262,28 +1262,31 @@ section.section--paintings--phone p {
 
 @media (max-width: 767px) {
   .section-copy {
+    font-size: 13px;
     width: 80%;
   }
 
-  section .section-sidebar.sidebar--right {
+  .section-copy h2 {
+    font-size: 13px;
+  }
+
+  .section-sidebar.sidebar--right {
     background: #f3f4f4;
     border-left: 1px solid rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     bottom: 0;
     right: -100%;
     overflow-y: scroll;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 270px;
-    z-index: 999999;
+    z-index: 99;
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
   }
 
-  section .section-sidebar.sidebar--right.is-active {
+  .section-sidebar.sidebar--right.is-active {
     right: 0;
   }
 
@@ -1319,14 +1322,14 @@ section.section--paintings--phone p {
     top: 10px;
   }
 
-  a.mobile-sidebar-trigger {
+  body.fix-page a.mobile-sidebar-trigger {
     border: none;
     color: rgb(0, 0, 0);
     display: block;
-    position: absolute;
+    position: fixed;
     font-size: 30px;
     right: 20px;
     text-decoration: none;
     top: 20px;
-    z-index: 99999999;
+    z-index: 999999;
 }
