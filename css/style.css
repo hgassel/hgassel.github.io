@@ -997,7 +997,36 @@ section.section--paintings--phone p {
 
 .render {
   overflow: hidden;
-}.button.colour--4ff0d8 {
+}
+
+section.section--intro.js-not-scrolled {
+  animation: pulse 3s ease-in-out infinite;
+  -webkit-animation: pulse 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 0.8
+  }
+  50% {
+    opacity: 1.0
+  }
+  100% {
+    opacity: 0.8
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8
+  }
+  50% {
+    opacity: 1.0
+  }
+  100% {
+    opacity: 0.8
+  }
+ }.button.colour--4ff0d8 {
   border-color: #4ff0d8;
 }
 
