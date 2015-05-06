@@ -56,7 +56,7 @@ THREE.DeviceOrientationControls = function ( object ) {
 	}();
 
 	this.connect = function() {
-
+    console.log('connected')
 		onScreenOrientationChangeEvent(); // run once on load
 
 		window.addEventListener( 'orientationchange', onScreenOrientationChangeEvent, false );
@@ -76,6 +76,7 @@ THREE.DeviceOrientationControls = function ( object ) {
 	};
 
 	this.update = function () {
+    console.log('update')
 
 		if ( scope.enabled === false ) return;
 
