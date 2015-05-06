@@ -993,6 +993,10 @@ section.section--paintings--phone p {
 
 .mobile-sidebar-trigger {
   display: none;
+}
+
+.render {
+  overflow: hidden;
 }.button.colour--4ff0d8 {
   border-color: #4ff0d8;
 }
