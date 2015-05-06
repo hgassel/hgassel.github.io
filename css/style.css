@@ -1256,11 +1256,11 @@ section.section--paintings--phone p {
   }
 
   .underlay .underlay-top {
-    top: 20px;
+    top: 22px;
   }
 
   .underlay .underlay-bottom {
-    bottom: 20px;
+    bottom: 22px;
   }
 }
 
@@ -1288,6 +1288,20 @@ section.section--paintings--phone p {
     z-index: 99;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
+  }
+
+  .sidebar-underlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .sidebar-underlay.is-active {
+    display: block;
   }
 
   .section-sidebar.sidebar--right.is-active {
@@ -1336,4 +1350,10 @@ section.section--paintings--phone p {
     text-decoration: none;
     top: 20px;
     z-index: 999999;
+  }
+
+  .render {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
