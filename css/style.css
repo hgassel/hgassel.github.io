@@ -993,10 +993,6 @@ section.section--paintings--phone p {
 
 .mobile-sidebar-trigger {
   display: none;
-}
-
-.render {
-  overflow: hidden;
 }.button.colour--4ff0d8 {
   border-color: #4ff0d8;
 }
@@ -1350,10 +1346,5 @@ section.section--paintings--phone p {
     text-decoration: none;
     top: 20px;
     z-index: 999999;
-  }
-
-  .render {
-    width: 80%;
-    margin-left: 10%;
   }
 }
