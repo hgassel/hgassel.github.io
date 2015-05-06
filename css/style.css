@@ -1286,8 +1286,8 @@ section.section--paintings--phone p {
     top: 0;
     width: 270px;
     z-index: 99;
-    -webkit-transition: all 400ms linear;
-    transition: all 400ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
   }
 
   .section-sidebar.sidebar--right.is-active {
